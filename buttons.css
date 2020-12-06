@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+}
+.container button{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 40px;
+	background-color: green;
+	font-size: 20px;
+	z-index: 1;
+}
+.container > span > #big{
+	position: absolute;
+	left: -50px;
+	bottom: 0;
+}
+.container > span > #small{
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+.container > span{
+	display: none;
+}
+.container > span > #but2{
+	display: inline-block;
+}
